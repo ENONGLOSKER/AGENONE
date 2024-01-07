@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/x-icon" href="icon.png">
+  <title>Agenone</title>
+</head>
+<body>
+  <div class="grid grid-cols-12">
+    <!-- header -->
+    <div class="col-span-6 relative">
+      <img src="bg.png" alt="bg" class="h-screen w-full -z-50">
+      <div class="head z-50 mx-12 my-16 absolute top-0 left-0 flex justify-center gap-2">
+        <img src="logo-mini.png" alt="icon" class="w-8 h-8"> 
+        <span class="font-bold text-2xl">Agenone</span>
+      </div>
+      <div class="z-50 mx-12 my-16 absolute top-20 left-0">
+        <h1 class="text-6xl font-bold">Digital<span class="bg-clip-text text-transparent bg-gradient-to-r from-[#30BB80] to-[#07826F]"> Creative</span> <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#30BB80] to-[#07826F]">Agency</span> Landing Page</h1>
+
+        <ul class="flex flex-col gap-2 mt-10">
+          <li class="flex items-center gap-1 text-slate-700"><input checked id="checkbox" type="checkbox" class="accent-[#07826F] w-4 h-4"> Fully Customizable</li>
+          <li class="flex items-center gap-1 text-slate-700"><input checked id="checkbox" type="checkbox" class="accent-[#07826F] w-4 h-4"> Responsive</li>
+          <li class="flex items-center gap-1 text-slate-700"><input checked id="checkbox" type="checkbox" class="accent-[#07826F] w-4 h-4"> Figma Auto Layout</li>
+          <li class="flex items-center gap-1 text-slate-700"><input checked id="checkbox" type="checkbox" class="accent-[#07826F] w-4 h-4"> Style & Component</li>
+          <li class="flex items-center gap-1 text-slate-700"><input checked id="checkbox" type="checkbox" class="accent-[#07826F] w-4 h-4"> Organized layer</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- form -->
+    <div class="col-span-6">
+      <h1 class="text-center font-bold text-2xl mt-28 mb-10">Sign in</h1>
+      <form action="" class=" p-5 text-center flex flex-col gap-3 w-3/5 mx-auto">
+        <input type="text" placeholder="Username" class="border border-slate-400 rounded-sm px-4 py-2">
+        <input type="text" placeholder="Password" class="border border-slate-400 rounded-sm px-4 py-2">
+        <div class="flex justify-between items-center text-sm mb-10">
+          <label for="" class="flex items-center gap-1"><input checked id="checkbox" type="checkbox" class="accent-[#07826F] w-4 h-4"> Ingat saya</label>
+          <a href="" class="text-[#07826F]">Lupa password?</a>
+        </div>
+
+        <button type="submit" class="font-medium text-white bg-gradient-to-r from-[#3FCB8F] to-[#3BB481] rounded-sm px-4 py-2 ">Sign in</button>
+        <span class="text-sm">belum punya akun?<a href="index.html" class="text-sm text-[#07826F] font-semibold"> Sign up</a></span>
+      </form>
+    </div>
+
+  </div>
+
+      <!-- script -->
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

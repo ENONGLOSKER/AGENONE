@@ -4,6 +4,7 @@
     <span>✨⭐⭐⭐✨</span>
     <hr>
     <img src="landingpage.png"/>
+    <img src="sign in.png"/>
     <br>
 </div>
 
